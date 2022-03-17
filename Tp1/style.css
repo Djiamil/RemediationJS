@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+.containeur{
+    display:flex;
+    width:100%;
+    height:50vh;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.mesdive{
+    display:flex;
+    width:55%;
+    height:35%;
+    background-color: bisque;
+    justify-content:center;
+    align-items:center;
+    border-radius:5%
+}
+.success{
+    display:flex;
+    width:30%;
+    height:20%;
+    border-radius:10%;
+    background-color:#038f60;
+    align-items:center;
+    color:aliceblue;
+    font-size:1rem;
+    font-weight:bolder;
+}
+.danger{
+    display:flex;
+    width:35%;
+    height:20%;
+    border-radius:10%;
+    background-color:#e4240a;
+    color:aliceblue;
+    font-size:1rem;
+    font-weight:bolder;
+    align-items:center;
+}
+.warning{
+    display:flex;
+    width:35%;
+    height:20%;
+    border-radius:10%;
+    background-color:rgb(230, 208, 15);
+    color:aliceblue;
+    font-size:1rem;
+    font-weight:bolder;
+    align-items:center;
+}
+.info{
+    display:flex;
+    width:35%;
+    height:20%;
+    border-radius:10%;
+    background-color:rgb(32, 213, 219);
+    color:aliceblue;
+    font-size:1rem;
+    font-weight:bolder;
+    align-items:center;
+}
+.agenerer{
+    display:flex;
+    width:100%;
+    height:50%;
+    border: 1rem ;
+    position:absolute;
+    bottom:0;
+    right:0;
+    flex-direction: column;
+    justify-content:end;
+   
+}
+.divc{
+    display:flex;
+    bottom:0;
+    width:15%;
+    height:10%;
+    border-radius:10%;
+    margin:1rem;
+    float:right;
+    align-items: center;
+    justify-content: center;
+}
